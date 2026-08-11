@@ -1,0 +1,5 @@
+-keep class com.eve.pricewatcher.database.entities.** { *; }
+-keep class com.eve.pricewatcher.database.dao.** { *; }
+-keep class com.eve.pricewatcher.database.AppDatabase { *; }
+-dontwarn okhttp3.**
+-dontwarn org.apache.commons.compress.**
